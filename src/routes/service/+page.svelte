@@ -4,7 +4,7 @@
 </svelte:head>
 
 <script lang="ts">
-import Cards from "../../components/Cards.svelte";
+import ServiceCards from "$lib/ui/cards/ServiceCards.svelte";
 
 // 
 
@@ -13,5 +13,5 @@ import Cards from "../../components/Cards.svelte";
 <div>
     <h1>Our Services</h1>
 
-    <Cards/>
+    <ServiceCards/>
 </div>
